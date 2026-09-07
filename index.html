@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Oráculo olfativo2.0 — Perfumes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet"/>
+  <title>Oráculo Olfativo 2.0 — Perfumes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;460;500;540;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-  <h1>Oráculo olfativo <em>2.0</em></h1>
-  <p class="header-eyebrow">..... </p>
-  <p class="">Coleção pessoal</p>
+  <p class="header-eyebrow">Coleção pessoal</p>
+  <h1>Oráculo Olfativo <em>2.0</em></h1>
 </header>
+
 <div class="nav-wrapper">
   <p class="filters-label">Filtrar por ocasião</p>
   <div class="filters">
@@ -31,6 +33,12 @@
 </div>
 
 <main class="grid" id="grid">
+  <div class="loading-state" id="loadingState">
+    <p>Carregando coleção…</p>
+  </div>
+  <div class="error-state" id="errorState">
+    <p>Não foi possível carregar a planilha. Verifique sua conexão ou o compartilhamento da planilha.</p>
+  </div>
   <div class="empty-state" id="emptyState">
     <p>Nenhum perfume encontrado para essa combinação.</p>
   </div>
@@ -38,7 +46,7 @@
 
 <div class="footer-area">
   <button class="btn-sortear" id="btnSortear">
-    <span>✦ Sortear</span>
+    <span>Sortear</span>
   </button>
   <p class="sortear-hint" id="sortearHint">Sorteie entre os perfumes visíveis</p>
 </div>
@@ -46,7 +54,7 @@
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal">
     <button class="modal-close" id="modalClose">✕</button>
-    <p class="modal-eyebrow">✦ Perfume Sorteado</p>
+    <p class="modal-eyebrow">Perfume sorteado</p>
     <span class="modal-icon" id="modalIcon"></span>
     <h2 class="modal-name" id="modalName"></h2>
     <p class="modal-brand" id="modalBrand"></p>

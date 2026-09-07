@@ -1,0 +1,89 @@
+id,name,brand,category,inspiredBy,notes,icon,tags
+1,Satin Body Oud,ABDUL SAMAD AL QURASH,Nicho,,"bergamota,lavanda, flor de laranjeira, jasmin, mandarina, pêra, oud cedro, pachouli, vetiver, baunilha,âmbar",🍐🌼🪵,primavera;outono;inverno;noite
+2,Modest une,Afnan,CT Árabe,Dior Sauvage EDT,"Bergamota, pimenta, lavanda, ambroxan, vetiver, cedro",🌊💨🌿,primavera;verao;outono;dia;noite
+3,9.AM,Afnan,CT Árabe,Bleu de Chanel + Y,"limão, Hortelã, groselha preta , pimenta rosa, maçã, cedro, incenso, gengibre, sândalo, patchouli, jasmin",🍋🍏🫚,primavera;verao;outono;inverno;dia;noite
+4,Supremacy Collector's Edition Pour Homme,Afnan,CT Árabe,Aventus Absolu - Creed,"Abacaxi, bergamota, bétula, patchouli, almíscar, âmbar, musgo de carvalho, âmbar cinzento",🍍🌲👑,primavera;verao;outono;dia;noite
+5,Armani Code EDT - 2023,Armani,Importado design,,"Mandarina,Lavanda,Fava tonka, Cedro",🍋🪻💼,primavera;verao;outono;inverno;dia;noite
+6,Habanera Black,Aurora Scents,CT Árabe,Vibrato + Tygar - Sospiro,"Toranja,gengibre, bergamota,mandarina,cedro, jasmin, raiz de orris, rosa, almiscar, acorde amadeirado",🍊🫚🪵,primavera;verao;outono;dia;noite
+7,Be Intense,Azza parfums,Contratipo,Y EDP Intense - Yves Saint Laurent,"Maçã, salva, cedro, âmbar, almíscar branco, madeira",🍎🌿⚡,primavera;verao;outono;dia;noite
+8,L'home Up,Azza parfums,Contratipo,Prada L'Homme Intense,"Íris, âmbar, sálvia, cedro, sândalo, almíscar",🌸🪵💫,primavera;outono;inverno;noite
+9,Lunnari,Azza parfums,Contratipo,Prada Luna Rossa,"Lavanda, toranja, bergamota, almíscar, labdano, madeira",🌕💜🌿,primavera;outono;inverno;dia;noite
+10,Audacity,Azza parfums,Contratipo,Imagination - Louis Vuitton,"Cítrico, notas aquáticas, cedro, almíscar, âmbar cinza",💡🌊🍊,primavera;outono;dia;noite
+11,Boise Premium,Azza parfums,Contratipo,Cedrat Boise Intense - Mancera,"Cedro, limão, almíscar, âmbar, sândalo, patchouli",🌲🍋🤎,primavera;outono;inverno;dia;noite
+12,Homme Exclusif,Azza parfums,Contratipo,Dior Homme Parfum,"Cacau, íris, couro, madeira, âmbar, almíscar",🍫🌸🖤,outono;inverno;noite
+13,Le Homme Sport,Azza parfums,Contratipo,Dior Homme Sport,"Toranja, notas aquáticas, cedro, almíscar, madeira de lei",🏃💧🌿,primavera;verao;outono;dia;noite
+14,L'Homme L'Eau,Vivant,Contratipo,L'Homme L'Eau - Prada,"Bergamota, íris, notas aquáticas, cedro, almíscar, notas frescas",💧🌸🌊,primavera;verao;outono;dia
+15,Homme,Dior,Importado design,,"Lavanda, íris, âmbar, couro, cedro, almíscar cinza",🌸🖤🌿,primavera;outono;inverno;dia;noite
+16,Homme Sport,Dior,Importado design,,"Toranja, notas aquáticas, cedro, almíscar, gengibre",⚡💧🏋️,primavera;verao;outono;inverno;dia;noite
+17,Homme Intense,Dior,Importado design,,"Íris, cacau, âmbar, madeira, almíscar, cedro",🌸🍫🌙,outono;inverno;noite
+18,PLATINE BLANC,French Avenue,CT Árabe,Torino 21 - Xerjoff,"Rosa, sândalo, baunilha, almíscar branco, âmbar, patchouli",⬜🌹✨,primavera;verao;outono;dia
+19,Liquid Brun,French Avenue,CT Árabe,Althair - Parfums de Marly,"Bergamota, couro, sândalo, âmbar, almíscar, cedro",🤎🌲💫,outono;inverno;noite
+20,Vulcan Feu,French Avenue,CT Árabe,God of Fire - Stéphane Humbert Lucas,"Incenso, couro, oud, âmbar, madeira defumada, resina",🌋🔥🖤,primavera;verao;dia
+21,Royal Blend Nero,French Avenue,CT Árabe,Angel Share - KILIAN,"Conhaque, baunilha, carvalho, âmbar, almíscar, sândalo",🥃🌙👑,outono;inverno;noite
+22,Naxos,Xerjoff,Nicho,,"lavanda, bergamota, limão, mel, canela, cashmeran,jasmin sambac, folha de tabaco, baunilha,fava tonka",🍋🪻🍯,primavera;outono;inverno;noite
+23,Lumen Blue,In the Box,Contratipo,Blue Talisman - Ex Nihilo,"Bergamota, notas aquáticas, âmbar cinza, almíscar, cedro",💙🌊✨,primavera;verao;outono;dia
+24,Turim,In the Box,Contratipo,Torino 21 - Xerjoff,"Rosa, sândalo, baunilha, almíscar, âmbar, patchouli",🌹🕯️🤍,primavera;verao;dia
+25,Taylor Made,In the Box,Contratipo,Tuxedo - Yves Saint Laurent,"Íris, couro, sândalo, madeira, almíscar, âmbar",🎩🖤🌸,primavera;outono;inverno;dia;noite
+26,Codex Supreme,In the Box,Contratipo,Armani Code EDP,"Bergamota, especiados, couro, âmbar, madeira, almíscar",🌙📖🖤,primavera;outono;inverno;dia;noite
+27,The Real Commander,In the Box,Contratipo,Stronger With You Intensely - Armani,"Caramelo, baunilha, sálvia, cedro, notas defumadas, almíscar",⚔️🍯🌙,outono;inverno;noite
+28,Tersus Parfum,In the Box,Contratipo,Y EDP - Yves Saint Laurent,"Maçã, salva, cedro, âmbar, almíscar, vetiver",🍎🌿💫,primavera;verao;outono;inverno;dia;noite
+29,Lemon Vanilla e Wood,In the Box,Contratipo,Allure Edition Blanche - Chanel,"Limão, baunilha, almíscar branco, cedro, âmbar, notas cítricas",🍋🤍🌲,primavera;verao;dia;noite
+30,Códice d'horo,In the Box,Contratipo,Armani Code Absolu Gold,"Bergamota, mel, couro, baunilha, sândalo, âmbar dourado",🏅🌙🍯,outono;inverno;noite
+31,Dark Water,In the Box,Contratipo,Acqua di Gio Profumo - Armani,"Notas aquáticas, incenso, patchouli, âmbar, almíscar, bergamota",🌊🖤🌿,primavera;verao;outono;dia;noite
+32,Uomo di Lusso,In the Box,Contratipo,Pour Homme EDP - Bvlgari,"Bergamota, chá, sândalo, almíscar, âmbar, madeira",☕🌟🌲,primavera;verao;outono;dia
+33,L'Eau d'Issey,Issey Miyake,Importado design,,"Notas aquáticas, lótus, lírio do vale, âmbar cinza, almíscar, cedro",💧🌸🌊,primavera;verao;dia
+34,Bull 21,J.A,Contratipo,Torino 21 - Xerjoff,"Rosa, sândalo, âmbar, baunilha, almíscar, patchouli",🐂🌹✨,primavera;verao;dia
+35,Macedonia,J.A,Contratipo,GYAN - Bvlgari,"Notas verdes, vetiver, cedro, almíscar, âmbar, madeira",🌿🌲💚,primavera;outono;inverno;dia;noite
+36,Imperial,J.A,Contratipo,Millésime Impérial - Creed,"Bergamota, íris, notas marinhas, almíscar, âmbar cinza, cedro",👑🌊💎,primavera;verao;outono;dia;noite
+37,Versatility,J.A,Contratipo,Greenley - Parfums de Marly / Creed,"Bergamota, maçã, cedro, vetiver, âmbar, almíscar",🍏🌿🔄,primavera;verao;outono;inverno;dia
+38,Enock,Nuancielo,Contratipo,Greenley - Parfums de Marly,"maçã verde, bergamota, mandarina, petitgrain, cedro, cashmeran, musgo de carvalho, almíscar",🍏🌿🌳,primavera;outono;dia;noite
+39,Hiero,Thera Cosméticos,Contratipo,CH Men EDT - Carolina Herrera,"Sálvia, cedro, âmbar, almíscar, notas verdes, madeira",🌿🏛️💚,primavera;outono;inverno;noite
+40,Divinity Monkey,J.A,Contratipo,Hanuman - Boadicea,"Rosa, oud, âmbar, sândalo, almíscar, especiado",🐒🌺🪵,primavera;verao;outono;dia
+41,Imaginacion,J.A,Contratipo,Imagination - Louis Vuitton,"Cítrico, notas aquáticas, cedro, almíscar, âmbar cinza",💭🌊🍋,primavera;verao;outono;dia
+42,Sparkling Bouquet,J.A,Contratipo,1861 Renaissance - Xerjoff,"Bergamota, flores brancas, almíscar, âmbar, sândalo",💐✨🌟,primavera;verao;dia
+43,Le Male Le Parfum,Jean-Paul Gaultier,Importado design,,"Lavanda, baunilha, âmbar, almíscar, couro, notas quentes",💙🫙🌹,primavera;outono;inverno;noite
+44,Tabac,Maison Alhambra,contratipo,Tobacolor - Dior,"Ameixa,Pêssego,Bergamota,Cítricos,Mel,Fumaça,Notas Orientais,Folha de Tabaco,Tabaco,Âmbar,Tabaco Branco",🍑🍯🚬🔥,outono;inverno;noite
+45,Dark Door Sport,Maison Alhambra,CT Árabe,Dior Homme Sport 2021,"Cítrico, toranja, notas aquáticas, cedro, almíscar, vetiver",🚪⚡💧,primavera;verao;outono;dia
+46,Le Patron Intense,Valentino Viegas,Contratipo,Boss Bottled Intense - Hugo Boss,"Maçã, canela, baunilha, madeira, âmbar, almíscar",👔🍎🌙,primavera;verao;outono;inverno;dia;noite
+47,Kiris Royale,Mixologist,Nicho,,"Gin, zimbro, bergamota, almíscar, notas herbais, âmbar",🍸👑🌿,primavera;verao;outono;inverno;noite
+48,Rose Maraschino,Mixologist,Nicho,,"Rosa, cereja, licor, baunilha, almíscar, notas florais",🌹🍒🍹,primavera;verao;outono;inverno;dia;noite
+49,Sex on the Peach,Mixologist,Nicho,,"Pêssego, laranja, baunilha, almíscar, notas frutadas, âmbar",🍑🍊✨,verao;noite
+50,Jasmiña Colada,Mixologist,Nicho,,"Jasmin, coco, abacaxi, âmbar, almíscar, notas tropicais",🌺🥥🍍,outono;noite
+51,Vintage Bergamot,Mixologist,Nicho,,"Bergamota, chá Earl Grey, âmbar, almíscar, madeira, notas cítricas",🍋🫖🌿,primavera;verao;outono;dia;noite
+52,Cuir Mojito,Mixologist,Nicho,,"Hortelã, limão, couro, âmbar, almíscar, notas verdes",🍹🌿👜,primavera;verao;outono;inverno;dia;noite
+53,Caipiroud,Mixologist,Nicho,,"Limão, cachaça, oud, âmbar, almíscar, notas resinosas",🍋🇧🇷🪵,primavera;verao;dia;noite
+54,Musk Mule,Mixologist,Nicho,,"Almíscar, gengibre, limão, âmbar, notas especiadas, madeira",🫏🌶️🤍,primavera;verao;outono;inverno;dia
+55,Tobacognac,Mixologist,Nicho,,"Tabaco, conhaque, baunilha, âmbar, couro, notas amadeiradas",🍷🚬🤎,outono;inverno;noite
+56,Scotchouli,Mixologist,Nicho,,"Whisky, patchouli, âmbar, almíscar, couro, notas defumadas",🥃🌱🖤,outono;inverno;noite
+57,Oud Fashioned,Mixologist,Nicho,,"Oud, bourbon, baunilha, âmbar, almíscar, couro",🥃🪵🌙,outono;inverno;noite
+58,Ambre Bourbon,Mixologist,Nicho,,"Âmbar, bourbon, baunilha, almíscar, madeira, notas quentes",🧡🥃✨,outono;inverno;noite
+59,Homem Essence,Natura,Nacional,,"Bergamota, notas verdes, sândalo, almíscar, cedro, âmbar",🌿🇧🇷💚,primavera;outono;inverno;dia;noite
+60,Everest,Nuancielo,Contratipo,Silver Mountain Water - Creed,"bergamota, mandarina, chá verde, groselha preta, almíscar, sândalo, petitgrain",🏔️❄️🌿,primavera;verao;dia
+61,Ayael,Nuancielo,Contratipo,Musk Therapy - Initio Parfums,"Almíscar, sândalo, âmbar, baunilha, notas quentes, almíscar branco",🤍☁️✨,primavera;verao;outono;dia
+62,Alpha,Nuancielo,Contratipo,Allure Homme Sport - Chanel,"Notas aquáticas, cedro, almíscar, âmbar cinza, bergamota, madeira",⚡🌊💪,primavera;verao;outono;dia;noite
+63,MONDÉ PARALLÈLE,Nuancielo,Contratipo,Solo Loewe,"Tomilho, âmbar, rosewood, almíscar, madeira, notas herbais",🌎🌿🌙,primavera;verao;outono;dia;noite
+64,Hills,Nuancielo,Contratipo,The One - Dolce & Gabbana,"Cardamomo, gengibre, cedro, âmbar, almíscar, sândalo",🏔️🌿🧡,primavera;outono;inverno;noite
+65,Zion Sanctum,Nuancielo,Contratipo,Code Parfum - Armani,"Bergamota, couro, âmbar, almíscar, sândalo, notas quentes",🏛️🖤💫,primavera;outono;inverno;dia;noite
+66,Eclat Vanille,Nuancielo,Contratipo,Vanilla 28 - Kayali,"Baunilha, âmbar, almíscar, sândalo, notas doces, benjoin",🍦🤍🌙,outono;inverno;noite
+67,Alfa Leggera,Nuancielo,Contratipo,Allure Homme Sport Eau Extrême - Chanel,"Bergamota, vetiver, cedro, almíscar, âmbar cinza, notas frescas",🏎️🌿💨,primavera;verao;outono;dia
+68,Dream on Infinity,Nuancielo,Contratipo,Imagination - Louis Vuitton,"Cítrico, notas aquáticas, cedro, âmbar cinza, almíscar, madeira",🌠💭🌊,primavera;verao;dia
+69,Ocean Pour Homme,Valentino Viegas,Contratipo,Ocean EDP - Prada,"Notas marinhas, bergamota, âmbar cinza, almíscar, cedro, madeira",🌊🏄💙,primavera;verao;outono;dia;noite
+70,Heaven,Valentino Viegas,Contratipo,Imagination - Louis Vuitton,"Cítrico, notas aquáticas, cedro, âmbar cinza, almíscar, leveza",😇🌤️💫,primavera;verao;dia
+71,EDAH,Nuancielo,Contratipo,ANI - Nishane,"Rosa, oud, sândalo, âmbar, almíscar, notas orientais",🌹🪵🌟,primavera;outono;inverno;noite
+72,Xclusif Oud,Orientica,CT Árabe,Layton - Parfums de Marly,"Oud, maçã, baunilha, âmbar, sândalo, especiado",🪵👑🍎,primavera;outono;inverno;dia;noite
+73,Invictus Intense,Paco Rabanne,Importado design,,"Toranja, patchouli, incenso, âmbar cinza, almíscar, madeira",⚡🏆🌊,primavera;verao;outono;dia;noite
+74,Avant Garde,Riiffs,CT Árabe,Prada L'Homme,"Íris, sálvia, cedro, almíscar, âmbar, notas frescas",🎨🌿💙,primavera;verao;outono;dia
+75,Aron,Sacratu,Nacional,,"Notas autoral, madeira, almíscar, âmbar, notas únicas",🌿🇧🇷⭐,primavera;verao;dia
+76,Volcano,Thera Cosméticos,Contratipo,Polo Blue EDT - Ralph Lauren,"Melão, notas aquáticas, cedro, almíscar, âmbar cinza, madeira",🌋💧🔵,primavera;verao;dia
+77,Hazor,Thera Cosméticos,Contratipo,Armani Code EDT,"Bergamota, anís, couro, almíscar, âmbar, madeira",🌑🌿🖤,primavera;outono;inverno;dia;noite
+78,Drago,Thera Cosméticos,Contratipo,Dior Homme Sport (antigo),"Toranja, notas cítricas, cedro, almíscar, âmbar, frescor",🐉💧🌿,primavera;verao;dia
+79,Fadin,Thera Cosméticos,Contratipo,212 Heroes - Carolina Herrera,"Bergamota, notas aquáticas, vetiver, almíscar, âmbar, cedro",🦸💙🌊,primavera;verao;outono;dia;noite
+80,Mead,Nuancielo,Contratipo,Naxos - Xerjoff,"cítricos,lavanda, jasmin,tabaco, canela, baunilha, ",🌿🪵🍯,primavera;inverno;outono;noite
+81,Un Jardin sur le Nil,Hermès,Importado design,null,"manga verde, toranja, tomate, lótus, junco, incenso, íris, almíscar",🌿🥭🌊,primavera;verao;dia
+82,Armani Code EDT Vintage,Armani,Importado design,,"Mandarina,Lavanda,Fava tonka, Cedro",🍋🪻💼,primavera;verao;outono;inverno;dia;noite
+83,Bossa,Granado,Nacional,,"limão, Petiigrain, mandarina,leite de coco , notas oceanicas,jasmim-manga,almiscar,cashmeran",🌊🍋🥥,primavera;verao;dia
+84,figo confit,Granado,Nacional,,"Figo, Davana e Ameixa,Cashmeran,Cedro,tãmara,ládano",🍂🍁✨,outono;inverno;dia;noite
+85,Ébène,Maison Alhambra,contratipo,Babycat - Yves Saint Laurent,"Elemi,Cravo,Artemísia,Olíbano,Madeira Guaiac,Baunilha,Benjoim,Âmbar,Almíscar",🌿🍦🪵,outono;inverno;noite
+86,Lemon Premium,Azza Parfums,contratipo,Lemon Line - Mancera,"Limão,Laranja,Lavanda,Flores Brancas,Gerânio,Âmbar,Almíscar Branco,Musgo de Carvalho",🍋🍊🪻,primavera;verao;dia
+87,àcqua de Gio Profumo,Armani,Importado design,,"Notas aquáticas, incenso, patchouli, âmbar, almíscar, bergamota",🌊🖤🌿,primavera;verao;outono;dia;noite
+88,Velvet Cedar,Maison Viegas,contratipo,Cedar Chic - Carolina Herrera,"Aldeídos,Bergamota,Flor de Laranjeira,Almíscar Branco,Cedro",🫧🍊🌸,primavera;verao;outono;dia
