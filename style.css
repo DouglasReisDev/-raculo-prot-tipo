@@ -1,39 +1,38 @@
 :root {
-  /* Cores base */
-  --color-midnight-wine: #421d24;
-  --color-royal-violet: #714cb6;
-  --color-lilac-mist: #d4c7ff;
-  --color-deep-lagoon: #0c4243;
-  --color-warm-parchment: #f2f0eb;
-  --color-soft-mist: #e3e3e2;
-  --color-ink-charcoal: #292827;
-  --color-stone-gray: #666666;
-  --color-paper-white: #ffffff;
+  /* Paleta base — preto fosco + dourado */
+  --color-matte-black: #0d0c0a;
+  --color-onyx: #17150f;
+  --color-onyx-soft: #1f1c14;
+  --color-gold: #c9a227;
+  --color-gold-bright: #e8c565;
+  --color-gold-deep: #8a6c1a;
+  --color-cream: #f3ecd9;
+  --color-warm-gray: #9a9284;
 
-  /* Cores das estações — usadas nas tags, filtros e brilhos */
+  /* Cores das estações — usadas nas tags, filtros e brilhos (mantidas coloridas) */
   --season-primavera: #ff6fa5;
-  --season-primavera-soft: rgba(255, 111, 165, 0.22);
+  --season-primavera-soft: rgba(255, 111, 165, 0.16);
   --season-verao: #f59f00;
-  --season-verao-soft: rgba(245, 159, 0, 0.22);
+  --season-verao-soft: rgba(245, 159, 0, 0.16);
   --season-outono: #c2540f;
-  --season-outono-soft: rgba(194, 84, 15, 0.22);
+  --season-outono-soft: rgba(194, 84, 15, 0.18);
   --season-inverno: #1c9ce8;
-  --season-inverno-soft: rgba(28, 156, 232, 0.20);
+  --season-inverno-soft: rgba(28, 156, 232, 0.16);
   --season-dia: #e0b400;
-  --season-dia-soft: rgba(224, 180, 0, 0.22);
+  --season-dia-soft: rgba(224, 180, 0, 0.16);
   --season-noite: #6c4fd6;
-  --season-noite-soft: rgba(108, 79, 214, 0.24);
+  --season-noite-soft: rgba(108, 79, 214, 0.18);
 
   /* Aliases funcionais */
-  --bg: var(--color-warm-parchment);
-  --surface: var(--color-paper-white);
-  --card-bg: var(--color-paper-white);
-  --card-border: var(--color-soft-mist);
-  --text: var(--color-ink-charcoal);
-  --text-muted: var(--color-stone-gray);
-  --accent: var(--color-midnight-wine);
-  --accent-link: var(--color-royal-violet);
-  --accent-wash: var(--color-lilac-mist);
+  --bg: var(--color-matte-black);
+  --surface: var(--color-onyx);
+  --card-bg: var(--color-onyx);
+  --card-border: rgba(201, 162, 39, 0.22);
+  --text: var(--color-cream);
+  --text-muted: var(--color-warm-gray);
+  --accent: var(--color-gold);
+  --accent-link: var(--color-gold-bright);
+  --accent-wash: rgba(201, 162, 39, 0.14);
 
   --font: 'Inter', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
@@ -42,10 +41,10 @@
   --radius-small: 12px;
   --radius-pill: 999px;
 
-  --glass-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.22));
-  --glass-border: rgba(255, 255, 255, 0.65);
-  --glass-blur: blur(20px) saturate(170%);
-  --shadow-subtle: rgb(113, 76, 182) 0px 0px 0px 1px inset;
+  --glass-bg: linear-gradient(135deg, rgba(23, 21, 15, 0.82), rgba(23, 21, 15, 0.62));
+  --glass-border: rgba(201, 162, 39, 0.28);
+  --glass-blur: blur(16px) saturate(140%);
+  --shadow-subtle: rgba(201, 162, 39, 0.35) 0px 0px 0px 1px inset;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -63,18 +62,15 @@ body {
   position: relative;
 }
 
-/* Névoa de cor borrada atrás de tudo — é o que dá "vida" ao vidro dos cards */
+/* Halo dourado sutil ao fundo — minimalista, sem névoa colorida */
 body::before {
   content: '';
   position: fixed;
   inset: -10%;
   background:
-    radial-gradient(circle at 12% 18%, var(--season-primavera-soft), transparent 38%),
-    radial-gradient(circle at 88% 12%, var(--season-verao-soft), transparent 38%),
-    radial-gradient(circle at 18% 88%, var(--season-inverno-soft), transparent 40%),
-    radial-gradient(circle at 85% 82%, var(--season-noite-soft), transparent 40%),
-    radial-gradient(circle at 50% 50%, var(--season-outono-soft), transparent 55%);
-  filter: blur(70px);
+    radial-gradient(circle at 20% 15%, rgba(201, 162, 39, 0.10), transparent 42%),
+    radial-gradient(circle at 85% 80%, rgba(201, 162, 39, 0.07), transparent 45%);
+  filter: blur(80px);
   z-index: -1;
   pointer-events: none;
 }
@@ -92,6 +88,8 @@ header {
   font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 8px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 header h1 {
@@ -113,11 +111,11 @@ header h1 em {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(242, 240, 235, 0.5);
+  background: rgba(13, 12, 10, 0.78);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   padding: 16px 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(201, 162, 39, 0.16);
 }
 
 .filters-label {
@@ -126,6 +124,8 @@ header h1 em {
   font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .filters {
@@ -142,30 +142,28 @@ header h1 em {
   font-size: 14px;
   font-weight: 460;
   padding: 8px 18px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: var(--text);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
   cursor: pointer;
   border-radius: var(--radius-pill);
   transition: var(--transition);
 }
 
-.filter-btn:hover { border-color: rgba(255, 255, 255, 0.9); transform: translateY(-1px); }
+.filter-btn:hover { border-color: rgba(201, 162, 39, 0.6); color: var(--text); transform: translateY(-1px); }
 
 .filter-btn.active {
   background: var(--accent-wash);
-  border-color: transparent;
+  border-color: var(--accent);
   color: var(--text);
 }
 
-.filter-btn[data-cat="primavera"].active { background: var(--season-primavera); border-color: var(--season-primavera); color: #fff; }
-.filter-btn[data-cat="verao"].active     { background: var(--season-verao);     border-color: var(--season-verao);     color: #fff; }
-.filter-btn[data-cat="outono"].active    { background: var(--season-outono);    border-color: var(--season-outono);    color: #fff; }
-.filter-btn[data-cat="inverno"].active   { background: var(--season-inverno);   border-color: var(--season-inverno);   color: #fff; }
-.filter-btn[data-cat="dia"].active       { background: var(--season-dia);       border-color: var(--season-dia);       color: #fff; }
-.filter-btn[data-cat="noite"].active     { background: var(--season-noite);     border-color: var(--season-noite);     color: #fff; }
+.filter-btn[data-cat="primavera"].active { background: var(--season-primavera); border-color: var(--season-primavera); color: #10080b; }
+.filter-btn[data-cat="verao"].active     { background: var(--season-verao);     border-color: var(--season-verao);     color: #100b00; }
+.filter-btn[data-cat="outono"].active    { background: var(--season-outono);    border-color: var(--season-outono);    color: #0f0500; }
+.filter-btn[data-cat="inverno"].active   { background: var(--season-inverno);   border-color: var(--season-inverno);   color: #00090f; }
+.filter-btn[data-cat="dia"].active       { background: var(--season-dia);       border-color: var(--season-dia);       color: #0f0b00; }
+.filter-btn[data-cat="noite"].active     { background: var(--season-noite);     border-color: var(--season-noite);     color: #0b0512; }
 
 /* ── COUNT BAR ──────────────────────────── */
 .count-bar {
@@ -189,10 +187,8 @@ header h1 em {
 
 /* ── CARD ───────────────────────────────── */
 .card {
-  background: var(--glass-bg);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  border: 1px solid var(--glass-border);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-cards);
   padding: 16px;
   position: relative;
@@ -200,13 +196,10 @@ header h1 em {
   transition: var(--transition);
   animation: fadeIn 0.4s ease both;
   cursor: default;
-  box-shadow:
-    0 8px 32px rgba(31, 30, 60, 0.10),
-    inset 0 1px 1px rgba(255, 255, 255, 0.8),
-    inset 0 -12px 24px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-/* Brilho diagonal, como um reflexo de luz no gelo */
+/* Fio de luz dourado sutil, discreto — sem glassmorphism pesado */
 .card::before {
   content: '';
   position: absolute;
@@ -217,8 +210,8 @@ header h1 em {
   background: linear-gradient(
     115deg,
     transparent 40%,
-    rgba(255, 255, 255, 0.35) 48%,
-    rgba(255, 255, 255, 0.05) 56%,
+    rgba(201, 162, 39, 0.10) 48%,
+    rgba(201, 162, 39, 0.02) 56%,
     transparent 65%
   );
   transform: rotate(0deg);
@@ -229,12 +222,9 @@ header h1 em {
 .card:hover::before { transform: translateX(30%); }
 
 .card:hover {
-  border-color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(201, 162, 39, 0.55);
   transform: translateY(-4px);
-  box-shadow:
-    0 16px 40px rgba(31, 30, 60, 0.16),
-    inset 0 1px 1px rgba(255, 255, 255, 0.9),
-    inset 0 -12px 24px rgba(255, 255, 255, 0.16);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
 }
 
 .card.hidden {
@@ -242,16 +232,16 @@ header h1 em {
 }
 
 .card.winner {
-  border-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--color-gold-bright) !important;
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.7) inset,
-    0 0 32px 4px rgba(113, 76, 182, 0.45);
+    0 0 0 1px rgba(201, 162, 39, 0.5) inset,
+    0 0 32px 4px rgba(201, 162, 39, 0.35);
   animation: winnerPulse 2s ease infinite;
 }
 
 @keyframes winnerPulse {
-  0%, 100% { box-shadow: 0 0 0 1px rgba(255,255,255,0.7) inset, 0 0 24px 2px rgba(113, 76, 182, 0.35); }
-  50%       { box-shadow: 0 0 0 1px rgba(255,255,255,0.9) inset, 0 0 40px 8px rgba(113, 76, 182, 0.55); }
+  0%, 100% { box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.5) inset, 0 0 24px 2px rgba(201, 162, 39, 0.25); }
+  50%       { box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.7) inset, 0 0 40px 8px rgba(201, 162, 39, 0.45); }
 }
 
 @keyframes fadeIn {
@@ -279,8 +269,8 @@ header h1 em {
   border-radius: var(--radius-small);
   overflow: hidden;
   position: relative;
-  background: rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 162, 39, 0.18);
 }
 
 .card-image-wrap img {
@@ -339,7 +329,7 @@ header h1 em {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-muted);
+  color: var(--accent-link);
   margin-bottom: 12px;
 }
 
@@ -367,12 +357,12 @@ header h1 em {
   border: 1px solid transparent;
 }
 
-.tag-primavera { background: var(--season-primavera-soft); color: #b8226a; border-color: rgba(255, 111, 165, 0.4); }
-.tag-verao     { background: var(--season-verao-soft);     color: #a05f00; border-color: rgba(245, 159, 0, 0.4); }
-.tag-outono    { background: var(--season-outono-soft);    color: #8a3c0a; border-color: rgba(194, 84, 15, 0.4); }
-.tag-inverno   { background: var(--season-inverno-soft);   color: #0d6fa8; border-color: rgba(28, 156, 232, 0.4); }
-.tag-dia       { background: var(--season-dia-soft);       color: #8a6f00; border-color: rgba(224, 180, 0, 0.4); }
-.tag-noite     { background: var(--season-noite-soft);     color: #4a30a3; border-color: rgba(108, 79, 214, 0.4); }
+.tag-primavera { background: var(--season-primavera-soft); color: #ff8fc0; border-color: rgba(255, 111, 165, 0.45); }
+.tag-verao     { background: var(--season-verao-soft);     color: #ffb340; border-color: rgba(245, 159, 0, 0.45); }
+.tag-outono    { background: var(--season-outono-soft);    color: #e8813f; border-color: rgba(194, 84, 15, 0.45); }
+.tag-inverno   { background: var(--season-inverno-soft);   color: #57bdf7; border-color: rgba(28, 156, 232, 0.45); }
+.tag-dia       { background: var(--season-dia-soft);       color: #f0cd45; border-color: rgba(224, 180, 0, 0.45); }
+.tag-noite     { background: var(--season-noite-soft);     color: #a58af0; border-color: rgba(108, 79, 214, 0.45); }
 
 /* ── WINNER BADGE ───────────────────────── */
 .winner-badge {
@@ -380,10 +370,10 @@ header h1 em {
   top: -1px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--color-royal-violet), var(--color-midnight-wine));
-  color: var(--color-paper-white);
+  background: linear-gradient(135deg, var(--color-gold-bright), var(--color-gold-deep));
+  color: var(--color-matte-black);
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 5px 14px;
   white-space: nowrap;
   font-family: var(--font);
@@ -443,27 +433,27 @@ header h1 em {
 .btn-sortear {
   font-family: var(--font);
   font-size: 16px;
-  font-weight: 460;
+  font-weight: 600;
   padding: 12px 48px;
   height: 48px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background: linear-gradient(135deg, var(--color-royal-violet), var(--color-midnight-wine));
-  color: var(--color-paper-white);
+  border: 1px solid rgba(232, 197, 101, 0.4);
+  background: linear-gradient(135deg, var(--color-gold-bright), var(--color-gold-deep));
+  color: var(--color-matte-black);
   cursor: pointer;
   border-radius: var(--radius-buttons);
   transition: var(--transition);
-  box-shadow: 0 8px 24px rgba(66, 29, 36, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 24px rgba(201, 162, 39, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .btn-sortear:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(66, 29, 36, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 12px 28px rgba(201, 162, 39, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .btn-sortear:active { transform: scale(0.97); }
 
 .btn-sortear:disabled {
-  background: var(--card-border);
+  background: var(--color-onyx-soft);
   color: var(--text-muted);
   cursor: not-allowed;
   box-shadow: none;
@@ -479,7 +469,7 @@ header h1 em {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(41, 40, 39, 0.5);
+  background: rgba(0, 0, 0, 0.72);
   backdrop-filter: blur(6px);
   z-index: 200;
   display: flex;
@@ -496,10 +486,10 @@ header h1 em {
 }
 
 .modal {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
+  background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-cards);
   padding: 48px 40px;
   max-width: 420px;
@@ -508,7 +498,7 @@ header h1 em {
   position: relative;
   transform: translateY(20px);
   transition: transform 0.3s ease;
-  box-shadow: 0 20px 60px rgba(31, 30, 60, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(201, 162, 39, 0.15);
 }
 
 .modal-overlay.open .modal { transform: translateY(0); }
@@ -518,6 +508,8 @@ header h1 em {
   font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .modal-icon { font-size: 40px; margin-bottom: 16px; display: block; }
@@ -562,17 +554,17 @@ header h1 em {
 }
 
 .btn-modal-outline {
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(8px);
+  border: 1px solid rgba(201, 162, 39, 0.3);
+  background: rgba(255, 255, 255, 0.03);
   color: var(--text);
 }
-.btn-modal-outline:hover { background: rgba(255, 255, 255, 0.6); }
+.btn-modal-outline:hover { background: rgba(201, 162, 39, 0.1); border-color: rgba(201, 162, 39, 0.5); }
 
 .btn-modal-gold {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: linear-gradient(135deg, var(--color-royal-violet), var(--color-midnight-wine));
-  color: var(--color-paper-white);
+  border: 1px solid rgba(232, 197, 101, 0.4);
+  background: linear-gradient(135deg, var(--color-gold-bright), var(--color-gold-deep));
+  color: var(--color-matte-black);
+  font-weight: 600;
 }
 .btn-modal-gold:hover { transform: translateY(-1px); }
 
@@ -588,7 +580,7 @@ header h1 em {
   padding: 4px 8px;
   transition: color var(--transition);
 }
-.modal-close:hover { color: var(--text); }
+.modal-close:hover { color: var(--accent-link); }
 
 /* ── SPIN ANIMATION ─────────────────────── */
 @keyframes spinRoulette {
@@ -597,12 +589,23 @@ header h1 em {
   100% { opacity: 0.4; transform: scale(0.98); }
 }
 
-.card.spinning { animation: spinRoulette 0.15s ease infinite; }
+.card.spinning {
+  animation: spinRoulette 0.15s ease infinite;
+  border-color: rgba(201, 162, 39, 0.5);
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--color-soft-mist); border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: rgba(201, 162, 39, 0.35); border-radius: 2px; }
+
+/* Respeita preferência por menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  .card.winner { animation: none; }
+  .card.spinning { animation: none; }
+  html { scroll-behavior: auto; }
+  .card, .btn-sortear, .modal, .modal-overlay { transition: none; }
+}
 
 /* ── RESPONSIVIDADE (MOBILE) ───────────────────────── */
 @media (max-width: 768px) {
